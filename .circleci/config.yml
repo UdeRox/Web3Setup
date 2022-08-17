@@ -18,8 +18,7 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
       - run:
-        name: "Run Test!!!!"
-        command: "npx hardhat rest"
+          command: npx hardhat rest
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
