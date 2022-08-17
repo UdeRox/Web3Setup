@@ -15,8 +15,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: "Install npm modules!"
+          command: npm install
       - run:
           command: npx hardhat rest
 
