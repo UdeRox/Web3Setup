@@ -23,4 +23,5 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - hello-to-web3
+      - say-hello
+      - npm-tools/install
