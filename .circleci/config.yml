@@ -33,4 +33,4 @@ workflows:
   say-web3-workflow:
     jobs:
       - hello-to-web3
-      # - stop-web3-hello
+      - stop-web3-hello
