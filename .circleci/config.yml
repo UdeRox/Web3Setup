@@ -21,7 +21,7 @@ jobs:
     docker:
       - image: cimg/base:stable 
     steps:
-      - echo "stop-web3-hello"
+      - run echo "stop-web3-hello"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
